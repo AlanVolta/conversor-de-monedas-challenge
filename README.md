@@ -76,7 +76,7 @@ El conversor obtiene las **tasas de cambio en tiempo real** desde [ExchangeRate-
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/Natalia-Schwindt/challenge-conversor-de-monedas.git
+   git clone https://github.com/AlanVolta/challenge-conversor-de-monedas.git
    ```
    
 2. Crea un archivo `config.properties` en la raíz del proyecto:
@@ -86,7 +86,7 @@ El conversor obtiene las **tasas de cambio en tiempo real** desde [ExchangeRate-
 3. Compila y ejecuta:
     ```bash
     javac -d out $(find . -name "*.java")
-    java -cp out com.nataliaschwindt.conversor.principal.Main
+    java -cp out com.alan.conversor.principal.Main
     ```
 4. Sigue las instrucciones en consola.
 
